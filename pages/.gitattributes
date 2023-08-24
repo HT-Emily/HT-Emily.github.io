@@ -1,0 +1,2 @@
+Trajectory.mp4 filter=lfs diff=lfs merge=lfs -text
+USSoccerPresentation5MinuteVersion.mp4 filter=lfs diff=lfs merge=lfs -text

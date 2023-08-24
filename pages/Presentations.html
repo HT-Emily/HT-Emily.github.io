@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <title>Emily Carroso</title>
+</head>
+<div class="topnav" id="myTopnav">
+    <a href="../index.html">Home</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Presentations.html" class="active">Presentations</a>
+    <a href="ResearchPapers.html">Research Papers</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<div class="row">
+    <div class="columnL">
+        <h1>
+            MyTurn
+        </h1>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRurIkpCPkMfbBJJjt4iYeWdmL63bMkclB1OJVBL6m408o1rzHxlOvVs4fGXK2vdwX_OgcdGUA0RI9M/embed?start=false&loop=false&delayms=60000" frameborder="0" width="90%" height="70%" allowfullscreen="true" mozallowfullscreen="true" text-align="center" webkitallowfullscreen="true"></iframe>
+        <body>
+        <br/>This is a google slide presentation that was used for a check-in presentation with added audio of what my research partner and I covered during the presentation.
+        </body>
+    </div>
+    <div class="columnR">
+        <h1>
+            US Soccer Intranet Prototype
+        </h1>
+        <video width=90% height=80% controls="controls" text-align="center">
+            <source src="USSoccerPresentation5MinuteVersion.mp4" type="video/mp4" />
+        </video>
+        <body>
+        <br/>This is a condensed 5 minute presentation concluding a 3 week internship with US Soccer in May of 2021.
+        </body>
+</div>
+</html>
